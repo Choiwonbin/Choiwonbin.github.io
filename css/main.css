@@ -1,0 +1,43 @@
+.main {
+  margin: 200px;
+}
+
+.main__greeting {
+  transition: display 5s;
+}
+
+.main__name {
+  text-align: center;
+}
+
+.main__name input {
+  border: none;
+  border-bottom: 3px solid white;
+  background-color: transparent;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main__name input:focus {
+  outline: none;
+}
+
+.main__name input::placeholder {
+  color: white;
+  text-align: center;
+}
+
+.main__greeting h1 {
+  text-align: center;
+  font-size: 50px;
+  transition: display 5s;
+}
+
+.main__greeting h2 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  transition: display 5s;
+}

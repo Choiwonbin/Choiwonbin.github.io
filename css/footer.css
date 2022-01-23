@@ -1,0 +1,73 @@
+.footer {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.footer__todo div:nth-child(2) {
+  text-align: right;
+}
+
+.footer__todobox {
+  display: none;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0px 10px 10px 10px;
+}
+
+.footer__todo-form {
+  margin-bottom: 10px;
+}
+
+.footer__input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid darkgray;
+  color: darkgray;
+}
+
+.footer__input:focus {
+  outline: none;
+}
+
+.footer__input::placeholder {
+  color: darkgray;
+}
+
+.footer__todolist {
+  list-style: square;
+  padding-left: 15px;
+}
+
+.footer__todolist li {
+  color: darkgray;
+  font-size: 15px;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+.footer__todolist li span {
+  color: black;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.footer__todolist li button {
+  height: 18px;
+  width: 18px;
+  font-size: 10px;
+  float: right;
+  text-align: center;
+  border: none;
+  transition: background-color 0.5s;
+}
+
+.footer__todolist li button:hover {
+  background-color: gray;
+}
+
+.footer__todo div:last-child {
+  opacity: 0.8;
+}
